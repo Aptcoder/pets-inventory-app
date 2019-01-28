@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="wrap_content">
+    <!--textview bolded for the name of the pet-->
+<TextView
+    android:id="@+id/pet_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    tools:text="@string/dummy_name"
+    android:textSize="22sp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif"
+    android:textColor="@android:color/black"
+    android:paddingLeft="16dp"
+    />
+ <!--pet breed-->
+    <TextView
+        android:id="@+id/pet_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:textSize="22sp"
+        tools:text="Terrier"/>
+
+</LinearLayout>
